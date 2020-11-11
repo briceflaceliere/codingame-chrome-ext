@@ -1,0 +1,20 @@
+{
+  "name": "Codingame Chrome Ext",
+  "version": "1.0",
+  "description": "The chrome extention for codingame",
+  "manifest_version": 2,
+  "permissions": ["https://*.codingame.com/", "activeTab"],
+  "icons": {
+    "32": "resources/favicon_32_32.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.codingame.com/*"],
+      "js": ["src/inject.js"],
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    "src/content.js"
+  ]
+}
