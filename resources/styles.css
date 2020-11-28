@@ -1,0 +1,20 @@
+#graph-viewer {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#graph-viewer #graph-container {
+    margin: 0 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.bt-switch-graph {
+    display: inline-block;
+}

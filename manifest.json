@@ -14,7 +14,11 @@
       "all_frames": false
     }
   ],
+  "background": {
+    "scripts": ["src/background.js"],
+    "persistent": false
+  },
   "web_accessible_resources": [
-    "src/content.js"
+    "src/content.js", "resources/styles.css", "node_modules/cytoscape/dist/cytoscape.min.js"
   ]
 }
